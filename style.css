@@ -24,7 +24,7 @@ body{
 .btn:hover{
 	box-shadow: 0 0 0 10px inset grey;
 	transform: scale(1,1);
-	transition: transform 1s;
+	transition: transform 2s;
 }
 .popup{
 	width: 400px;
