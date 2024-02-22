@@ -10,6 +10,9 @@ body{
 	align-items: center;
 	background: #333;
 }
+img{
+	transform: translate(-450px,-80px);
+}
 .btn{
 	margin-top: 20%;
 	transform: translateY(50%);
