@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PopUp | Anish Neupane</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="Logo.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<button class="btn" type="submit" onclick="openpopup()">Continue</button>
+		<div class="popup" id="popup">
+			<i class="fa fa-check"></i>
+			<h2>Thank You!</h2>
+			<p>Your details has been successfully submitted.</p>
+			<i class="fa fa-window-close" onclick="closepopup()"></i>
+		</div>
+	<script type="text/javascript" >
+		var popup = document.getElementById('popup');
+
+		function openpopup() {
+			popup.classList.add('openPopup');
+		}
+
+		function closepopup() {
+			popup.classList.toggle('openPopup');
+		}
+	</script>
+</body>
+</html>
